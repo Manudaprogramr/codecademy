@@ -11,22 +11,23 @@ body{
     font-family: Garamond;
     font-size: 20px;
 }
-
 a{
     text-decoration: blink;
 }
-
-section, aside{
+section{
     width: 70%;
     margin: 0 auto;
     text-align: justify;
 }
-
+aside{
+    width: 70%;
+    margin: 0 auto;
+    text-align: justify;
+}
 table{
     margin: 0 auto;
     border-spacing: 20px;
 }
-
 th,td{
     border: 2px solid seagreen;
     background-color: rgba(0, 0, 0, 0.1);
@@ -38,7 +39,6 @@ td:hover{
     color: blueviolet;
     background-color: seagreen;
 }
-
 footer{
     background-color: #000;
     border-radius: 20% 65%;
