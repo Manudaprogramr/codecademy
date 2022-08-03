@@ -1,63 +1,106 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="index.css">
-	<title>Codecademy</title>
-</head>
-<body>
-	<h1>@manuDaProgramr</h1>
-	<section>
-		<p>Thanks for visiting my first github page. I was referred here by my classes at Codecademy.
-		If you are already a Codecademy student, welcome and share your experiences with us. If you are interested in programming stick around, let me tell you all about your options at starting with Codcademy services:
-		</p>
-	</section>
-	<table>
-		<thead>
-			<tr>
-				<th>Languages</th>
-				<th>Available</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td>HTML</td>
-				<td>&#10003;</td>
-			</tr>
-			<tr>
-				<td>CSS</td>
-				<td>&#10003;</td>
-			</tr>
-			<tr>
-				<td>JAVASCRIPT</td>
-				<td>&#10003;</td>
-			</tr>
-			<tr>
-				<td>PYTHON</td>
-				<td>&#10003;</td>
-			</tr>
-			<tr>
-				<td>RUBY</td>
-				<td>&#10003;</td>
-			</tr>
-		</tbody>
-	</table>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,300;0,800;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Uchen&display=swap"
+      rel="stylesheet"
+    />
+    <title>Cheatsheet</title>
+  </head>
+  <body>
+    <nav>
+      <ol>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Contact me</a></li>
+        <li><a href="#">More pages </a></li>
+        <li><a href="#">Random</a></li>
+      </ol>
+    </nav>
+    <section class="main">
+      <h2>Welcome to my Cheat Sheet</h2>
+      <p>
+        Before we dive in different HTML tags and what they do let's define
+        HTML. HTML stands for HyperText Markup Language. Is HTML a programming
+        language? Now that's another debate. Here is a big secret, I used HTML
+        and CSS to build this Cheat Sheet.
+      </p>
 
-	<aside>
-		<p> There are many more languages available, and did I mention you can start for absolutely free? <span>Go see for yourself --> <a href="https://www.codecademy.com">Click Here</a> </span><br/>
+      <h3>But wait, what are tags?</h3>
 
-	I am not associated with Codecademy in any shape or form, other than being a very satisfied customer; who decides to make one of his practice objectives a testimony. 
-
-		</p>
-	</aside>
-
-	<footer>
-		<p>This page is designed by @manudaprogramr<br>
-		   Backgroung picture picture from: <a href="https://www.pexels.com/@felixmittermeier/"> www.pexels.com</a>
-		</p>
-	</footer>
-
-
-</body>
+      <p>
+        Tags are the most used elements in HTML they are used to declare what
+        type of information is being represented in each section of your HTML
+        docmunent. For example, if I want to write a papragraph I will use the
+        praragraph tag &lt;p&gt; &lt;/p&gt;.
+        <br />
+        <br />
+        Where &lt;p&gt; is my openning tag and &lt;/p&gt; is my closing tag. Not
+        all tags requires a closing.
+      </p>
+    </section>
+    <h3>Here is a selection of tags I use all the time.</h3>
+    <table class="tags_table">
+      <thead>
+        <tr>
+          <th>Tags</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>&lt;p&gt; &lt;/p&gt;</td>
+          <td>Paragraph</td>
+          <td>Used to define a paragraph.</td>
+        </tr>
+        <tr>
+          <td>&lt;img&gt;<sup>*</sup></td>
+          <td>Image</td>
+          <td>This inserts an image in the page.</td>
+        </tr>
+        <tr>
+          <td>&lt;a&gt; &lt;/a&gt;</td>
+          <td>Anchor</td>
+          <td>Used to make clickable sections.</td>
+        </tr>
+      </tbody>
+    </table>
+    <h6>
+      *img does not required a closing tag. While img tag does not require a
+      closing tag, it requires an attribute.
+      <a href="https://www.codecademy.com/resources/docs/html/elements/img"
+        >Learn more here</a
+      >
+    </h6>
+    <p>
+      If you wish to learn more HTML take your pick at my favorite learning
+      addresses:
+    </p>
+    <table class="clean">
+      <thead>
+        <tr>
+          <th class="no_border">
+            <a href="https://www.codecademy.com/">Codecademy</a>
+          </th>
+          <th class="no_border">
+            <a href="https://www.w3schools.com/html/default.asp">W3schools</a>
+          </th>
+          <th class="no_border">
+            <a href="https://www.geeksforgeeks.org/html/">Geekforgeeks</a>
+          </th>
+        </tr>
+      </thead>
+    </table>
+    <footer>
+      <p class="credits">Designed by manuDaProgramr<sup>&#174;</sup></p>
+      <a href="https://www.pexels.com/"> Background pictures from pexel.com</a>
+    </footer>
+  </body>
 </html>
